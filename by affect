@@ -209,7 +209,7 @@ end
 })
 local Tab = Window:MakeTab({
   Name = "金属棒球专区",
-  Icon = "rbxassetid://93567463634140",
+  Icon = "rbxassetid://7734068321",
   PremiumOnly = false
   })
   Tab:AddLabel("tsb金属棒球动作集")
