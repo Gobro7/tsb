@@ -1,1 +1,245 @@
+local CoreGui = game:GetService("StarterGui")
 
+CoreGui:SetCore("SendNotification", {
+    Title = "你的脚本",
+    Text = "正在加载tsb动作中心",
+    Duration = 5, 
+})
+print("affect帮你开启了反挂机")
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+		   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		   wait(1)
+		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
+local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
+local Window = OrionLib:MakeWindow({Name = "tsb动作中心", HidePremium = false, SaveConfig = true,IntroText = "欢迎使用tsb动作中心", ConfigFolder = "欢迎使用tsb动作中心"})
+local about = Window:MakeTab({
+    Name = "信息",
+    Icon = "rbxassetid://93567463634140",
+    PremiumOnly = false
+})
+
+about:AddParagraph("您的用户名:"," "..game.Players.LocalPlayer.Name.."")
+about:AddParagraph("您的注入器:"," "..identifyexecutor().."")
+about:AddParagraph("您当前服务器的ID"," "..game.GameId.."")
+about:AddParagraph("动作集全部来自于油管@GoldenHeads")
+about:AddParagraph("作者qq🐧  195009771")
+about:AddParagraph("作者affect")
+
+local Tab = Window:MakeTab({
+  Name = "琦玉专区",
+  Icon = "rbxassetid://7734068321",
+  PremiumOnly = false
+  })
+  Tab:AddLabel("tsb琦玉动作集")
+Tab:AddButton({
+	Name = "五条悟",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
+
+end
+})
+Tab:AddButton({
+	Name = "JUN（也就是6月）",
+	Callback = function()
+	
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Tp%20exploit%20saitama%20to%20jun'))()
+
+end
+})
+Tab:AddButton({
+	Name = "五条悟第2种",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://pastebin.com/raw/zF6Rdky0"))()
+
+end
+})
+Tab:AddButton({
+	Name = "东堂",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://paste.ee/r/Kd9uX"))()
+
+end
+})
+Tab:AddButton({
+	Name = "DEKU",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://paste.ee/r/Kd9uX"))()
+
+end
+})
+Tab:AddButton({
+	Name = "JJS GOJO",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://gist.githubusercontent.com/JcBoomin/a63e9ac3e90cef03ecf37e997fd21632/raw/98b567b81f61bb30042e0078b78f3fb24685fb8d/Gojo",true))()
+
+end
+})
+Tab:AddButton({
+	Name = "GT-CHARA",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://paste.ee/r/0yYkO"))()
+
+end
+})
+Tab:AddButton({
+	Name = "VHS SANS",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://paste.ee/r/rF9d3"))()
+
+end
+})
+local Tab = Window:MakeTab({
+  Name = "饿狼专区",
+  Icon = "rbxassetid://7734068321",
+  PremiumOnly = false
+  })
+  Tab:AddLabel("tsb饿狼动作集")
+Tab:AddButton({
+	Name = "DIDDY",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://paste.ee/r/gKC8V"))()
+
+end
+})
+Tab:AddButton({
+	Name = "火车头",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://paste.ee/r/AnZ5j"))()
+
+end
+})
+Tab:AddButton({
+	Name = "SUKUNA",
+	Callback = function()
+	
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Yourfavoriteguy/Sukuna/refs/heads/main/CLEAVE!'))()
+
+end
+})
+Tab:AddButton({
+	Name = "MASTERY DEKU",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://pastebin.com/raw/xKextYP5"))()
+
+end
+})
+Tab:AddButton({
+	Name = "Shinjuku Yuji",
+	Callback = function()
+	
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Yuji%20early%20access'))()
+
+end
+})
+Tab:AddButton({
+	Name = "gojo",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://pastebin.com/raw/3Cz8kF8M",true))()
+
+end
+})
+Tab:AddButton({
+	Name = "YUJI",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xVicity/GLACIER/main/LATEST.lua"))()
+
+end
+})
+Tab:AddButton({
+	Name = "饿狼不知道该叫什么V2",
+	Callback = function()
+	
+getgenv().OptimizeUltimate = true
+--self explanatory
+getgenv().ReduceUltFlash = true
+--self explanatory
+getgenv().Move1Insta = false
+--set it to false if you dont want the first move to instant kill
+getgenv().LowQualityMode = true
+--set to true if you have a shit pc (like me)
+getgenv().BetaConsole = true
+--its a console menu so you can modify each settings whenever you want
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua"))()
+
+end
+})
+Tab:AddButton({
+	Name = "饿狼改索尼克",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
+
+end
+})
+local Tab = Window:MakeTab({
+  Name = "索尼克专区",
+  Icon = "rbxassetid://7734068321",
+  PremiumOnly = false
+  })
+  Tab:AddLabel("tsb索尼克动作集")
+Tab:AddButton({
+	Name = "索尼克改TOJI",
+	Callback = function()
+	
+loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/GUI")()
+
+end
+})
+Tab:AddButton({
+	Name = "VOLTRA",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"))()
+
+end
+})
+local Tab = Window:MakeTab({
+  Name = "金属棒球专区",
+  Icon = "rbxassetid://93567463634140",
+  PremiumOnly = false
+  })
+  Tab:AddLabel("tsb金属棒球动作集")
+Tab:AddButton({
+	Name = "死神v2",
+	Callback = function()
+	
+getgenv().Music = false 
+--Setting this to false usually fixes most executors
+--also it helps load time a little bit
+getgenv().AttackQuality = 'High'
+--Set to Low,High
+
+ getgenv().ConstantSpeed = false
+--if you want your speed to be constant
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
+
+end
+})
+local Tab = Window:MakeTab({
+  Name = "龙卷专区",
+  Icon = "rbxassetid://7734068321",
+  PremiumOnly = false
+  })
+  Tab:AddLabel("tsb龙卷动作集")
+Tab:AddButton({
+	Name = "骨架",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/ROBLOX-FREAKY-GOJO-REAL/refs/heads/main/SANS%20%5BREDACTED%5D"))()
+
+end
+})
