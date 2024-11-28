@@ -16,7 +16,7 @@ local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))
 local Window = OrionLib:MakeWindow({Name = "tsb动作中心", HidePremium = false, SaveConfig = true,IntroText = "欢迎使用tsb动作中心", ConfigFolder = "欢迎使用tsb动作中心"})
 local about = Window:MakeTab({
     Name = "信息",
-    Icon = "rbxassetid://93567463634140",
+    Icon = "rbxassetid://7734068321",
     PremiumOnly = false
 })
 
@@ -104,7 +104,7 @@ local Tab = Window:MakeTab({
   })
   Tab:AddLabel("tsb饿狼动作集")
 Tab:AddButton({
-	Name = "DIDDY",
+	Name = "吹牛老爹",
 	Callback = function()
 	
 loadstring(game:HttpGet("https://paste.ee/r/gKC8V"))()
