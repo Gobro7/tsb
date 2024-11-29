@@ -185,6 +185,14 @@ loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
 
 end
 })
+Tab:AddButton({
+	Name = "饿狼改门户",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://paste.ee/r/mmQkO"))()
+
+end
+})
 local Tab = Window:MakeTab({
   Name = "索尼克专区",
   Icon = "rbxassetid://7734068321",
