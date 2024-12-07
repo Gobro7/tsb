@@ -204,6 +204,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/S1gmaGuy/MinosPrimeFi
 
 end
 })
+Tab:AddButton({
+	Name = "夏油杰",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://paste.ee/r/70OTE"))()
+
+end
+})
 local Tab = Window:MakeTab({
   Name = "索尼克专区",
   Icon = "rbxassetid://7734068321",
