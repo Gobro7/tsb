@@ -193,6 +193,17 @@ loadstring(game:HttpGet("https://paste.ee/r/mmQkO"))()
 
 end
 })
+Tab:AddButton({
+	Name = "MINOS PRIME",
+	Callback = function()
+	
+_G.SkipIntro = true -- set to true if u want to skip minos prime intro
+_G.Night = false -- set to true if u want night
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/S1gmaGuy/MinosPrimeFixed/refs/heads/main/ThefixIsSoSigma"))()
+
+end
+})
 local Tab = Window:MakeTab({
   Name = "索尼克专区",
   Icon = "rbxassetid://7734068321",
@@ -248,6 +259,21 @@ Tab:AddButton({
 	Callback = function()
 	
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/ROBLOX-FREAKY-GOJO-REAL/refs/heads/main/SANS%20%5BREDACTED%5D"))()
+
+end
+})
+local Tab = Window:MakeTab({
+  Name = "通用",
+  Icon = "rbxassetid://7734068321",
+  PremiumOnly = false
+  })
+  Tab:AddLabel("tsb通用动作集")
+  Tab:AddLabel("变巨人的时候是隐形")
+Tab:AddButton({
+	Name = "巨人",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://paste.ee/r/fxY03"))()
 
 end
 })
