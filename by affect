@@ -230,6 +230,14 @@ loadstring(game:HttpGet("https://paste.ee/r/NPnfk"))()
 
 end
 })
+Tab:AddButton({
+	Name = "GOJO  2",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/S1gmaGuy/MyWifiSoBad/refs/heads/main/Garou%20to%20Gojo"))()
+
+end
+})
 local Tab = Window:MakeTab({
   Name = "索尼克专区",
   Icon = "rbxassetid://7734068321",
