@@ -25,6 +25,7 @@ about:AddParagraph("您的注入器:"," "..identifyexecutor().."")
 about:AddParagraph("您当前服务器的ID"," "..game.GameId.."")
 about:AddParagraph("动作集全部来自于油管@GoldenHeads")
 about:AddParagraph("作者qq🐧  195009771")
+about:AddParagraph("官方QQ群聊  718769219")
 about:AddParagraph("作者affect")
 
 local Tab = Window:MakeTab({
