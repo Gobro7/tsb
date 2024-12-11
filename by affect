@@ -97,6 +97,14 @@ loadstring(game:HttpGet("https://paste.ee/r/rF9d3"))()
 
 end
 })
+Tab:AddButton({
+	Name = "KASHIMO",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/Kashimo/main/Protected_7491278457865044.txt"))()
+
+end
+})
 local Tab = Window:MakeTab({
   Name = "饿狼专区",
   Icon = "rbxassetid://7734068321",
@@ -238,6 +246,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/S1gmaGuy/MyWifiSoBad/
 
 end
 })
+Tab:AddButton({
+	Name = "AKAZA",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/AkazaByNovahitta-Nova2ezz/refs/heads/main/Akaza"))()
+
+end
+})
 local Tab = Window:MakeTab({
   Name = "索尼克专区",
   Icon = "rbxassetid://7734068321",
@@ -257,6 +273,14 @@ Tab:AddButton({
 	Callback = function()
 	
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"))()
+
+end
+})
+Tab:AddButton({
+	Name = "AIZEN TYBW",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/AizenTYBW/refs/heads/main/Novahitta"))()
 
 end
 })
@@ -293,6 +317,28 @@ Tab:AddButton({
 	Callback = function()
 	
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/ROBLOX-FREAKY-GOJO-REAL/refs/heads/main/SANS%20%5BREDACTED%5D"))()
+
+end
+})
+local Tab = Window:MakeTab({
+  Name = "刀锋专区",
+  Icon = "rbxassetid://7734068321",
+  PremiumOnly = false
+  })
+  Tab:AddLabel("tsb刀锋动作集")
+Tab:AddButton({
+	Name = "sukuna",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://github.com/aggiealledge/obfuscated-scripts/raw/refs/heads/main/sukuna"))()
+
+end
+})
+Tab:AddButton({
+	Name = "YUTA",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/AtomicToYuta/main/Protected_8122576078506000.txt"))()
 
 end
 })
