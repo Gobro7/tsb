@@ -366,13 +366,22 @@ local Tab = Window:MakeTab({
   Icon = "rbxassetid://7734068321",
   PremiumOnly = false
   })
-  Tab:AddLabel("tsb通用动作集")
+  Tab:AddLabel("tsb通用动作")
   Tab:AddLabel("变巨人的时候是隐形")
 Tab:AddButton({
 	Name = "巨人",
 	Callback = function()
 	
 loadstring(game:HttpGet("https://paste.ee/r/fxY03"))()
+
+end
+})
+Tab:AddLabel("全服务器通用")
+Tab:AddButton({
+	Name = "🦌",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")
 
 end
 })
