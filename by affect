@@ -340,20 +340,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/mai
 end
 })
 local Tab = Window:MakeTab({
-  Name = "龙卷专区",
-  Icon = "rbxassetid://7734068321",
-  PremiumOnly = false
-  })
-  Tab:AddLabel("tsb龙卷动作集")
-Tab:AddButton({
-	Name = "骨架",
-	Callback = function()
-	
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/ROBLOX-FREAKY-GOJO-REAL/refs/heads/main/SANS%20%5BREDACTED%5D"))()
-
-end
-})
-local Tab = Window:MakeTab({
   Name = "刀锋专区",
   Icon = "rbxassetid://7734068321",
   PremiumOnly = false
