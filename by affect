@@ -319,6 +319,14 @@ loadstring(game:HttpGet("https://paste.ee/r/1HxVZ"))()
 
 end
 })
+Tab:AddButton({
+	Name = "死亡笔记",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://paste.ee/r/AyoFs"))()
+
+end
+})
 local Tab = Window:MakeTab({
   Name = "索尼克专区",
   Icon = "rbxassetid://7734068321",
