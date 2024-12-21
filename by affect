@@ -401,6 +401,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/AtomicToYuta
 
 end
 })
+Tab:AddButton({
+	Name = "TOJI",
+	Callback = function()
+	
+getgenv().RunTool = false -- useful i guess
+getgenv().TpTool = false -- kinda useless just tps to closest player
+getgenv().TpTool2 = true -- useful tps u to whatever u click
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/S1gmaGuy/Toji_Sigma_Boy/refs/heads/main/100%25%20Sigma%20Boy"))()
+
+end
+})
 local Tab = Window:MakeTab({
   Name = "通用",
   Icon = "rbxassetid://7734068321",
