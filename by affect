@@ -130,6 +130,14 @@ loadstring(game:HttpGet("https://paste.ee/r/KRsP4"))()
 
 end
 })
+Tab:AddButton({
+	Name = "gojo-V3",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/jjsgojov3/main/SaitamaToGojoV3_SOURCE-obfuscated_2.txt",true))()
+
+end
+})
 local Tab = Window:MakeTab({
   Name = "饿狼专区",
   Icon = "rbxassetid://7734068321",
