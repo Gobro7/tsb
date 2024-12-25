@@ -430,6 +430,20 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/S1gmaGuy/Toji_Sigma_B
 end
 })
 local Tab = Window:MakeTab({
+  Name = "水龙专区",
+  Icon = "rbxassetid://7734068321",
+  PremiumOnly = false
+  })
+  Tab:AddLabel("tsb水龙动作集")
+Tab:AddButton({
+	Name = "MAHITO",
+	Callback = function()
+	
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GreatestLime4K/mahitotsb/refs/heads/main/Protected_6381580361331378.txt'))()
+
+end
+})
+local Tab = Window:MakeTab({
   Name = "通用",
   Icon = "rbxassetid://7734068321",
   PremiumOnly = false
