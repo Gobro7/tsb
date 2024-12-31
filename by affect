@@ -343,6 +343,14 @@ loadstring(game:HttpGet("https://paste.ee/r/AyoFs"))()
 
 end
 })
+Tab:AddButton({
+	Name = "OKARUN",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Hero%20hunter%20to%20okarun%20fr"))()
+
+end
+})
 local Tab = Window:MakeTab({
   Name = "索尼克专区",
   Icon = "rbxassetid://7734068321",
@@ -370,6 +378,14 @@ Tab:AddButton({
 	Callback = function()
 	
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/AizenTYBW/refs/heads/main/Novahitta"))()
+
+end
+})
+Tab:AddButton({
+	Name = "SUNG JIN WOO USE NINJA",
+	Callback = function()
+	
+lloadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/nova2ezz-SungjiWoo/refs/heads/main/Protected_7939201355282604.txt"))()
 
 end
 })
@@ -477,7 +493,7 @@ Tab:AddButton({
 	Name = "我不知道该说什么",
 	Callback = function()
 	
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Nwepnet/Okarun/refs/heads/main/loader"))()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Okarun-Mini-Update-JJS-Vessel-25334"))()
 
 end
 })
@@ -496,7 +512,7 @@ loadstring(game:HttpGet("https://paste.ee/r/fxY03"))()
 
 end
 })
-Tab:AddLabel("全服务器通用")
+Tab:AddLabel("仅限r6体型和服务器")
 Tab:AddButton({
 	Name = "🦌",
 	Callback = function()
