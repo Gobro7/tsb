@@ -517,7 +517,11 @@ Tab:AddButton({
 	Name = "打飞机（r6体型版本）",
 	Callback = function()
 	
-loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")
+--Made by Muscle_legends2021 (Gio)
+--YouTube: GioBolqvi
+--Got skidded, Aquamatrix and SpiderScriptRB [fùck skidders]
+--might not work on low unc level executors
+loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))()
 
 end
 })
