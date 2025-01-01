@@ -514,10 +514,22 @@ end
 })
 Tab:AddLabel("仅限r6体型和服务器")
 Tab:AddButton({
-	Name = "🦌",
+	Name = "打飞机（r6体型版本）",
 	Callback = function()
 	
 loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")
+
+end
+})
+Tab:AddLabel("仅限r15体型和服务器")
+Tab:AddButton({
+	Name = "打飞机（r15体型版本）",
+	Callback = function()
+	
+--Made by muscle_legends2021 (Gio)
+--YouTube: GioBolqvi
+
+loadstring(game:HttpGet("https://pastefy.app/YZoglOyJ/raw"))()
 
 end
 })
