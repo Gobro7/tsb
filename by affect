@@ -351,6 +351,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenjihin69/Kenjihin69
 
 end
 })
+Tab:AddButton({
+	Name = "弗莱迪",
+	Callback = function()
+	
+loadstring(game:HttpGet('https://paste.ee/r/BxsaW'))()
+
+end
+})
 local Tab = Window:MakeTab({
   Name = "索尼克专区",
   Icon = "rbxassetid://7734068321",
