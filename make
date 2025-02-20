@@ -23,10 +23,10 @@ local about = Window:MakeTab({
 about:AddParagraph("您的用户名:"," "..game.Players.LocalPlayer.Name.."")
 about:AddParagraph("您的注入器:"," "..identifyexecutor().."")
 about:AddParagraph("您当前服务器的ID"," "..game.GameId.."")
-about:AddParagraph("动作集全部来自于油管@GoldenHeads")
+about:AddParagraph("动作集全部来自于油管")
 about:AddParagraph("作者qq🐧  195009771")
 about:AddParagraph("官方QQ群聊  864791311")
-about:AddParagraph("更新內容（两个一拳的动作集）")
+about:AddParagraph("更新內容（一个一拳的动作集）")
 about:AddParagraph("作者L")
 
 local Tab = Window:MakeTab({
@@ -303,6 +303,14 @@ Tab:AddButton({
 --Theres 4 dismantle variants they have same damage  but different vfx
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/sukunasaitamav1/main/thescript",true))()
+
+end
+})
+Tab:AddButton({
+	Name = "鸣人",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LolnotaKid/NarutoBeatUpSasukeAss/refs/heads/main/NarutoCums"))()
 
 end
 })
